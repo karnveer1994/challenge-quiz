@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 40%;  
+  min-height: 500px;
+  min-width: 500px;
+  margin: 60px auto;
+  border: 5px solid #ececec;
+}
+.questionBox {
+  padding: 15px 50px;
+}
+.ratingDisable {
+  color: #cbcccb;
+}
+.buttonBox {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  flex-wrap: wrap;
+}
+.btnContainer {
+  width: 50%;
+  margin-bottom: 15px;
+}
+.btn {
+  background: #e5e6e5;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 6px 0;
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  width: 200px;
+}
+.selected {
+  color: #fff;
+  background: #000;
+}
+.disable {
+  cursor: not-allowed;
+  opacity: 0.4;
+}
+.text-center {
+  text-align: center;
+}
+.scoreBox {
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 25px;
+  display: flex;
+  width: 100%;
+}
+.lowestPossibleBar {
+  background: #000;
+  float: left;
+  height: 100%;
+}
+.maximumPercentBar {
+  background: #d2d2d2;
+  float: left;
+  height: 100%;
+}
+.currentScoreBar {
+  background: #717171;
+  float: left;
+  height: 100%;
+}
+.percentBar {
+  height: 25px;
+}
+.currentScorePercent {
+  color: #494949;
+  font-size: 18px;
+  padding: 8px;
+  float: left;
+}
+.maxScorePercent {
+  color: #494949;
+  font-size: 18px;
+  padding: 8px;
+  float: right;
+}
+.loadingBar {
+  width: 100%;
+  height: 15px;
+  background: #fff;
+}
+.progress {
+  display: block;
+  background: #a9aaa9;
+  height: 100%
+}
